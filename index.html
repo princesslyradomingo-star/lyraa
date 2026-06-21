@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Who is Lyra?</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body> 
+    <h1>Hello, this is Lyra.</h1>
+    <p>Welcome to my personal website!</p>
+    <div id="aboutBox" class="popup">
+        <h2>About Me</h2>
+        <p>My name is Princess Lyra V. Domingo.<br> I'm 15 years old and my birthday is on May 07, 2011.<br> 
+        I'm an SPA student in Grade 10 at BHNHS. My specialization is music.<br> I have two brothers and I'm the youngest daughter.<br>
+        We have a pet dog named Ryujin. ^3^<br>
+        <p>This is my socials:
+        <ul>
+            <li><a href="https://www.facebook.com/lyra.domingo.754" target="_blank">Facebook</a></li>
+            <li><a href="https://www.instagram.com/ureiwonly?igsh=MWNsc2JqODB1M3dxMw==" target="_blank">Instagram</a></li>
+            <li><a href="https://x.com/yourtrulyra" target="_blank">Twitter</a></li>
+        </ul>
+        </p>
+    </div>
+    <div id="likesBox" class="popup"></div>
+        <h2>My Likes</h2>
+        <p> My favorite subject is Math and MAPEH.<br> I like learning new hobbies like playing instruments, sewing, crocheting, dancing etc.<BR> 
+            My favorite food is siomai, kwek kwek and fries.
+        <p> I like to listen to music, especially to R&B, KPop, and others depending on my mood. xD<br>
+            I have a favorite artist/band. I like them because they are self-produced group, 
+            they can make music and choreography own their own. Their band name is SEVENTEEN, I like listening to them especially on their ballads. <33
+        <p> I also like animals! My favorite is a dog. Dogs are cute and affectionate, every time i came home my pet always greets me with excitement! 
+            I love her so much. </p>
+    </div>
+    <div id="dreamsBox" class="popup"></div>
+        <h2>My Dreams</h2>
+        <p> My dream is to become a child psychologist.
+        <p> I also want to be an artist and creates my own music.</p>
+        <p> If I don't become either of those, I want to start my own business selling
+            pastries, handmade crafts, and clothing.
+        <p> I have so many dreams. I can do and enjoy many different things, so I'm having a hard time choosing a future career.</p> 
+    </div>
+</div>
+<script>
+    function showAbout() {
+        const box = document.getElementById('aboutBox');
+
+        if (box.style.display === 'block') {
+            box.style.display = 'none';
+        } else {
+            box.style.display = 'block';
+        }
+     }
+    function showLikes() {
+        const box = document.getElementById('likesBox');
+
+        if (box.style.display === 'block') {
+            box.style.display = 'none';
+        } else {
+            box.style.display = 'block';
+        }
+    }
+    function showDreams() {
+        const box = document.getElementById('dreamsBox');
+
+        if (box.style.display === 'block') {
+            box.style.display = 'none';
+        } else {
+            box.style.display = 'block';
+        }
+    }
+</script>
+</body>
+</html>
